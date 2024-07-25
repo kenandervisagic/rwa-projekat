@@ -19,6 +19,7 @@ import java.util.Base64;
 
 @WebServlet("/loginAuth")
 public class LoginAuthServlet extends HttpServlet {
+
     private static final Logger log = LoggerFactory.getLogger(LoginAuthServlet.class);
     private final Gson gson = new Gson(); // Gson object for JSON parsing
 
