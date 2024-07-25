@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="quiz">
+    <output-path>$PROJECT_DIR$/out/artifacts/quiz</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RI601-projekat-amraMustajbasic-kenanDervisagic" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.5.6" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.5.6" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.9.1" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.21.9" />
+          <element id="library" level="project" name="Maven: com.mysql:mysql-connector-j:8.0.33" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.13" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="RI601-projekat-amraMustajbasic-kenanDervisagic/web/Web" />
+    </root>
+  </artifact>
+</component>
