@@ -10,13 +10,13 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
-@WebServlet("/admin/manageUsers")
-public class ManageUsersServlet extends HttpServlet {
+@WebServlet("/admin/login")
+public class LoginPageServlet extends HttpServlet {
 
-    private static final Logger log = LoggerFactory.getLogger(ManageUsersServlet.class);
+    private static final Logger log = LoggerFactory.getLogger(LoginPageServlet.class);
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("manageUsers.jsp").forward(request,response);
-        log.info("manageUsers.jsp GET request served");
+        request.getRequestDispatcher("login.jsp").forward(request, response);
+        log.info("login.jsp GET request served");
     }
 }
